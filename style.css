@@ -1,0 +1,155 @@
+/* ====================================
+   Navbar properties
+   ==================================== */
+
+@media (min-width: 768px) {
+  .center.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    color: #FFFFFF;
+  }
+  .center.navbar {
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+
+
+/* Navbar opacity transition */
+
+.transition.navbar-fixed-top {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: background-color 1s ease 0s;
+}
+
+.transition.navbar-fixed-top.opaque {
+  background-color: rgba(0, 0, 0, 0.5);
+  borderne: none;
+  transition: background-color 1s ease 0s;
+}
+
+
+/* Navbar link coloring and hovering */
+
+.navlink.navbar-inverse .navbar-nav > li > a:hover,
+.navlink.navbar-inverse .navbar-nav > li > a:focus {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navlink.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+.navhover.navbar .nav > li > a {
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+
+/* ====================================
+   Body properties
+   ==================================== */
+
+body {
+  font-family: 'Cantarell', sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.jumbotron {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.vertical-center {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a1c1bc;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:active {
+  text-decoration: none;
+  color: #333333;
+}
+
+.fa-linkedin:hover {
+  color: #1884bb;
+}
+
+.fa-github:hover {
+  color: #171515;
+}
+
+.fa-codepen:hover {
+  color: black;
+}
+
+
+/* ====================================
+   Web content
+   ==================================== */
+
+.about-section {
+  height: 100vh;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+
+/*
+.portfolio-section {
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+*/
+
+@media (min-width: 768px) {
+  .portfolio-section {
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+  }
+}
+
+.contact-section {
+  height: 100vh;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+
+/* ====================================
+   Development utilities
+   ==================================== */
+
+.shade {
+  background: rgba(0, 0, 0, 0.5);
+}
