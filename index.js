@@ -10,23 +10,6 @@ $(window).scroll(function() {
   }
 });
 
-/* ************************************************* 
-   Background picture randomizer! This affects 
-   .jumbotron CSS class!
-   ************************************************* */
-function randomHero() {
-  var heroPics = ['http://res.cloudinary.com/jescobedo/image/upload/v1480457735/bg1.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457735/bg2.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457735/bg3.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457741/bg4.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457735/bg5.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457735/bg6.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457740/bg7.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457740/bg8.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457738/bg9.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457738/bg10.jpg', 'http://res.cloudinary.com/jescobedo/image/upload/v1480457738/bg11.jpg'];
-
-  $('.jumbotron').css({
-    'background': 'url(' + heroPics[Math.floor(Math.random() * heroPics.length)] + ') no-repeat',
-    'background-position': 'center center',
-    'background-attachment': 'fixed',
-    'background-size': 'cover',
-    'color': 'white'
-  });
-}
-
-randomHero();
 
 /* ************************************************* 
    Scrolling animation!
